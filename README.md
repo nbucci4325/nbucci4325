@@ -1,5 +1,3 @@
-<!-- Save as README.md in a repo named exactly like your username: nbucci4325/nbucci4325 -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:3a0ca3,100:00f0ff&height=190&section=header&text=Nico&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Game%20Programmer&descSize=20&descAlignY=60&descColor=00f0ff" alt="Banner" width="100%" />
