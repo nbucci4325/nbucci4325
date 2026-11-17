@@ -9,6 +9,7 @@
 </a>
 
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn" /></a>
+<a href="https://YOUR-ITCH-USERNAME.itch.io"><img src="https://img.shields.io/badge/itch.io-0d1117?style=for-the-badge&logo=itchdotio&logoColor=FA5C5C" alt="itch.io" /></a>
 <a href="mailto:YOUR@EMAIL.COM"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=FF2E97" alt="Email" /></a>
 <a href="https://nicobuccilli.itch.io/"><img src="https://img.shields.io/badge/itch.io-0d1117?style=for-the-badge&logo=itchdotio&logoColor=FA5C5C" alt="itch.io" /></a>
 
@@ -24,25 +25,9 @@
 
 I build gameplay systems and AI behavior, mostly in **C# and Unity**. I like tools that make other developers faster, and I enjoy applying algorithms, especially **genetic algorithms**, to real problems.
 
-<details>
-<summary><b>🎮 Press START: character sheet</b></summary>
-
-<br />
-
-```text
-┌──────────────────────────────────────────┐
-│  PLAYER      Nico                        │
-│  CLASS       Game Programmer             │
-│  GUILD       Brock / Niagara College     │
-│  MAIN HAND   C# / Unity                  │
-│  OFF HAND    Python                      │
-│  SPELLBOOK   Genetic Algorithms, FSMs    │
-│  QUEST       Land a co-op                │
-│  STATUS      ● Open to party invites     │
-└──────────────────────────────────────────┘
-```
-
-</details>
+<div align="center">
+  <img src="assets/character-sheet.svg" alt="Character sheet" width="85%" />
+</div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -77,37 +62,21 @@ stateDiagram-v2
 
 ## 🚀 Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/nbucci4325/StockGA">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=StockGA&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="StockGA" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/nbucci4325/UNITY-UTILITIES-REPO">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UNITY-UTILITIES-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Unity Utilities" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/nbucci4325/UML-DESIGNER-REPO">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UML-DESIGNER-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="UML Designer" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/nbucci4325/SHOWTIME-BOT-REPO">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=SHOWTIME-BOT-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Showtime Bot" />
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/nbucci4325/StockGA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=StockGA&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="StockGA" width="48%" /></a>
+  <a href="https://github.com/nbucci4325/UNITY-UTILITIES-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UNITY-UTILITIES-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Unity Utilities" width="48%" /></a>
+  <br />
+  <a href="https://github.com/nbucci4325/UML-DESIGNER-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UML-DESIGNER-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="UML Designer" width="48%" /></a>
+  <a href="https://github.com/nbucci4325/SHOWTIME-BOT-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=SHOWTIME-BOT-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Showtime Bot" width="48%" /></a>
+  <br /><br />
+  <img src="assets/projects.svg" alt="Project log" width="92%" />
+</div>
 
-<details>
-<summary><b>🧬 StockGA: how the evolution loop works</b></summary>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<br />
+## 🔧 Under the hood
+
+**StockGA: the evolution loop**
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#140a3a','primaryTextColor':'#e6faff','primaryBorderColor':'#00f0ff','lineColor':'#ff2e97','edgeLabelBackground':'#0d1117','textColor':'#c9d1d9','fontFamily':'monospace'}}}%%
@@ -120,12 +89,7 @@ flowchart LR
     B -. best individual .-> F([Trading signal])
 ```
 
-</details>
-
-<details>
-<summary><b>♻️ Unity Utilities: object pool lifecycle</b></summary>
-
-<br />
+**Unity Utilities: object pool lifecycle**
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#140a3a','primaryTextColor':'#e6faff','primaryBorderColor':'#00f0ff','lineColor':'#ff2e97','edgeLabelBackground':'#0d1117','textColor':'#c9d1d9','fontFamily':'monospace'}}}%%
@@ -136,34 +100,9 @@ stateDiagram-v2
     Active --> Inactive: Release()
 ```
 
-</details>
-
-<details>
-<summary><b>📦 Everything else I've built</b></summary>
-
-<br />
-
-- **StockGA:** genetic algorithm in Python evolving trading signal parameters, integrated with a neural network pipeline.
-- **Unity Utilities:** generic `Singleton<T>`, typed object pools and a min/max slider Inspector drawer.
-- **UML Designer:** PySide6 desktop app with undo/redo and automated PyInstaller releases.
-- **Showtime Bot:** Discord bot with alerts, deployed with GitHub Actions.
-
-</details>
-
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 📈 Stats
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbucci4325&layout=compact&hide_border=true&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9" alt="Top languages" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://streak-stats.demolab.com?user=nbucci4325&background=0D1117&ring=FF2E97&fire=FF2E97&currStreakLabel=00F0FF&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=00F0FF&dates=7D8AA8&stroke=30363D&border=00000000" alt="Streak" />
-    </td>
-  </tr>
-</table>
+## 📈 Activity
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nbucci4325&bg_color=0d1117&color=00f0ff&line=ff2e97&point=ffffff&area=true&area_color=3a0ca3&hide_border=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
@@ -171,14 +110,11 @@ stateDiagram-v2
   <img src="https://raw.githubusercontent.com/nbucci4325/nbucci4325/output/snake-neon.svg" alt="Contribution snake" width="100%" />
 </div>
 
-<details>
-<summary><b>🛠️ Currently working on</b></summary>
+<img src="assets/divider.svg" width="100%" alt="" />
 
-<br />
+## 🛠️ Currently working on
 
 - Replace this with 2–3 short bullets.
-
-</details>
 
 <div align="center">
 <br />
