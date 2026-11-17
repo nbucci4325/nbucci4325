@@ -41,64 +41,11 @@ I build gameplay systems and AI behavior, mostly in **C# and Unity**. I like too
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 🧠 Game AI, in one diagram
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'background':'#0d1117','primaryColor':'#140a3a','primaryTextColor':'#e6faff','primaryBorderColor':'#00f0ff','lineColor':'#ff2e97','secondaryColor':'#1b1b3a','tertiaryColor':'#0d1117','edgeLabelBackground':'#0d1117','textColor':'#c9d1d9','fontFamily':'monospace'}}}%%
-stateDiagram-v2
-    direction LR
-    [*] --> Patrol
-    Patrol --> Chase: player spotted
-    Chase --> Attack: in range
-    Attack --> Chase: out of range
-    Chase --> Search: lost sight
-    Search --> Patrol: timeout
-    Search --> Chase: player spotted
-    Attack --> Flee: low health
-    Flee --> Patrol: safe
-```
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
 ## 🚀 Projects
 
 <div align="center">
-  <a href="https://github.com/nbucci4325/StockGA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=StockGA&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="StockGA" width="48%" /></a>
-  <a href="https://github.com/nbucci4325/UNITY-UTILITIES-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UNITY-UTILITIES-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Unity Utilities" width="48%" /></a>
-  <br />
-  <a href="https://github.com/nbucci4325/UML-DESIGNER-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=UML-DESIGNER-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="UML Designer" width="48%" /></a>
-  <a href="https://github.com/nbucci4325/SHOWTIME-BOT-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=nbucci4325&repo=SHOWTIME-BOT-REPO&bg_color=0d1117&title_color=00F0FF&text_color=c9d1d9&icon_color=FF2E97&border_color=30363d" alt="Showtime Bot" width="48%" /></a>
-  <br /><br />
   <img src="assets/projects.svg" alt="Project log" width="92%" />
 </div>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-## 🔧 Under the hood
-
-**StockGA: the evolution loop**
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#140a3a','primaryTextColor':'#e6faff','primaryBorderColor':'#00f0ff','lineColor':'#ff2e97','edgeLabelBackground':'#0d1117','textColor':'#c9d1d9','fontFamily':'monospace'}}}%%
-flowchart LR
-    A([Random population of signal parameters]) --> B[Evaluate fitness: cumulative return]
-    B --> C[Select parents]
-    C --> D[Uniform crossover]
-    D --> E[Mutate]
-    E --> B
-    B -. best individual .-> F([Trading signal])
-```
-
-**Unity Utilities: object pool lifecycle**
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#140a3a','primaryTextColor':'#e6faff','primaryBorderColor':'#00f0ff','lineColor':'#ff2e97','edgeLabelBackground':'#0d1117','textColor':'#c9d1d9','fontFamily':'monospace'}}}%%
-stateDiagram-v2
-    direction LR
-    [*] --> Inactive: Pool created
-    Inactive --> Active: Get(position, rotation)
-    Active --> Inactive: Release()
-```
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -107,12 +54,11 @@ stateDiagram-v2
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nbucci4325&bg_color=0d1117&color=00f0ff&line=ff2e97&point=ffffff&area=true&area_color=3a0ca3&hide_border=true&custom_title=Contribution%20Activity" alt="Activity graph" width="100%" />
   <br />
-  <img src="https://raw.githubusercontent.com/nbucci4325/nbucci4325/output/snake-neon.svg" alt="Contribution snake" width="100%" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
-## 🛠️ Currently working on
+<!--## 🛠️ Currently working on
 
 - Replace this with 2–3 short bullets.
 
@@ -122,3 +68,4 @@ stateDiagram-v2
 <br />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,50:3a0ca3,100:0d1117&height=110&section=footer" alt="Footer" width="100%" />
 </div>
+-->
