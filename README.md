@@ -10,7 +10,7 @@
 
 <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" alt="LinkedIn" /></a>
 <a href="mailto:YOUR@EMAIL.COM"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=FF2E97" alt="Email" /></a>
-<img src="https://img.shields.io/badge/CO--OP-OPEN-0d1117?style=for-the-badge&labelColor=0d1117&color=39ff88" alt="Open to co-op" />
+<a href="https://nicobuccilli.itch.io/"><img src="https://img.shields.io/badge/itch.io-0d1117?style=for-the-badge&logo=itchdotio&logoColor=FA5C5C" alt="itch.io" /></a>
 
 <br /><br />
 
